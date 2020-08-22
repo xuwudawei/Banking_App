@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Banking App',
-      home: LandingPage(),
+      debugShowCheckedModeBanner: false,
+      //home: LandingPage(),
+      initialRoute: '/',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
   }
