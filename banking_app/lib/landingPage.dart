@@ -17,9 +17,13 @@ class LandingPage extends StatelessWidget {
           color: Colors.black54,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SizedBox(
+            Container(
+              margin: EdgeInsets.only(left: 25, top: 50),
               child: Image.asset('assets/davidlogo.png'),
+              width: 140,
+              height: 300,
             ),
           ],
         ),
