@@ -17,7 +17,11 @@ class LandingPage extends StatelessWidget {
           color: Colors.black54,
         ),
         child: Column(
-          children: <Widget>[],
+          children: <Widget>[
+            SizedBox(
+              child: Image.asset('assets/davidlogo.png'),
+            ),
+          ],
         ),
       ),
     );
