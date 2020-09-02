@@ -1,5 +1,6 @@
+import 'package:banking_app/splashScreen/splashScreen.dart';
 import 'package:flutter/material.dart';
-import '../landingPage.dart';
+import '../landingPage/landingPage.dart';
 import '../main.dart';
 
 class RouteGenerator {
@@ -8,7 +9,7 @@ class RouteGenerator {
 
     switch (settings.name) {
       case '/':
-        return MaterialPageRoute(builder: (_) => LandingPage());
+        return MaterialPageRoute(builder: (_) => SplashScreen());
     }
   }
 }

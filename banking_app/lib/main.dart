@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './landingPage.dart';
+import './landingPage/landingPage.dart';
 import './routes/routes.dart';
 
 void main() {
